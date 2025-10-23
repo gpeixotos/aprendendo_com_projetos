@@ -1,7 +1,6 @@
 import textwrap
 
 def exibir_menu(conta_logada=None):
-    """Exibe o menu apropriado dependendo do estado de login."""
     if not conta_logada:
             menu = """\n
     ================ MENU ================
