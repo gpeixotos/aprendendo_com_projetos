@@ -2,7 +2,7 @@ import textwrap
 
 def exibir_menu(conta_logada=None):
     if not conta_logada:
-            menu = """\n
+        menu = """\n
     ================ MENU ================
     [l]\tLogin
     [nc]\tNova conta
